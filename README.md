@@ -3,9 +3,10 @@
 1. Counter JavaScript - http://import.hostingaba.beget.tech/counter-js/
 2. Counter React - http://import.hostingaba.beget.tech/counter-react/
 3. Counter Svelte - http://import.hostingaba.beget.tech/counter-svelte/
-4.
-5.
-6.
+4. Навигация с поворотом экрана для отображения меню - http://import.hostingaba.beget.tech/rotate-navigation/
+    <Кликнуть на бургер меню/>
+5. Визуализация пошагового меню:  http://import.hostingaba.beget.tech/progress-steps/
+6. Слайдер : http://import.hostingaba.beget.tech/slider/
 7.
 8.
 9.
