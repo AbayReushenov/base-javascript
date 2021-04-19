@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <title>Викторина</title>
+</head>
+
+<body>
+  <!--  шапка -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-primary display-3 my-4">Викторина по философии</h2>
+    </div>
+  </div>
+
+ <!--   результат -->
+ <div id="result" class="intro py-4 bg-white text-center"  style="visibility: hidden">
+  <div class="container lead">
+    <p>Вы набрали <span class="result text-primary display-4 p-3">0%</span></p>
+  </div>
+</div>
+
+  <!-- Викторина -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+        <h2 class="my-5 text-white">Итак, вопросы .. Кому принадлежат эти слова?</h2>
+
+        <form class="quiz-form text-light">
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. Праздник то, чего ждут. От обещанной встречи я жду неслыханной суммы удовольствий,
+              пиршества; я ликую, как ребенок, смеющийся при виде той, одно присутствие которой возвещает
+              и означает полноту удовлетворения; передо мной, для меня вот-вот откроется источник всех
+              благ.
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="A" checked>
+              <label class="form-check-label">Жак Лакан</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q1" value="B">
+              <label class="form-check-label">Ролан Барт</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. Аскеза (поползновение к аскезе) адресована другому: обернись, взгляни на меня,
+              посмотри, что ты со мною делаешь. Это шантаж: я предъявляю другому символ моего
+              собственного исчезновения, такого, каким оно наверняка и произойдет, если он не уступит
+              (чему?).
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="A" checked>
+              <label class="form-check-label">Жак Лакан</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q2" value="B">
+              <label class="form-check-label">Ролан Барт</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. События зарождаются в первичной историзации; другими слова­
+              ми, история создается уже на сцене, где, будучи однажды записа­
+              на, она тут же разыгрывается перед взорами совести, с одной
+              стороны, и правосудия, с другой.
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="A" checked>
+              <label class="form-check-label">Жак Лакан</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q3" value="B">
+              <label class="form-check-label">Ролан Барт</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. СЕРДЦЕ. Это слово подходит для обозначения всевозможных порывов и желаний, но одно
+              остается неизменным: сердце становится предметом дара либо неузнанного, либо
+              отвергнутого.
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="A" checked>
+              <label class="form-check-label">Жак Лакан</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q4" value="B">
+              <label class="form-check-label">Ролан Барт</label>
+            </div>
+          </div>
+
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              5. концепт и есть сама вещь — это, вопреки
+              школьной мудрости, может доказать и ребенок. Именно мир слов
+              и порождает мир вещей, поначалу смешанных в целом становя­
+              щегося «здесь и теперь»; порождает, сообщая их сущности свое
+              конкретное бытие, а тому, что пребывает от века — свою вездесущность.
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="A" checked>
+              <label class="form-check-label">Жак Лакан</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="q5" value="B">
+              <label class="form-check-label">Ролан Барт</label>
+            </div>
+          </div>
+
+          <div class="text-center">
+            <input class="btn btn-light" type="submit" value="Отправить">
+          </div>
+        </form>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
