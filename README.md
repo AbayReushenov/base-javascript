@@ -7,7 +7,7 @@
     <Кликнуть на бургер меню/>
 5. Визуализация пошагового меню:  http://import.hostingaba.beget.tech/progress-steps/
 6. Слайдер : http://import.hostingaba.beget.tech/slider/
-7.
+7. Викторина по философии - quiz : http://import.hostingaba.beget.tech/quiz/
 8.
 9.
 10.
