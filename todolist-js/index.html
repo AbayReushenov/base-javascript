@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/761d58c498.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+  <title>Список покупок</title>
+</head>
+<body>
+  <div class="container">
+
+    <header class="text-center text-light my-4">
+      <h1 class="mb-4">Что купить? </h1>
+      <form class="search"  autocomplete="off" >
+        <input class="form-control m-auto" type="text" name="search" placeholder="ищем в списке .." />
+      </form>
+    </header>
+
+    <ul class="list-group todos mx-auto text-light">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Хлеб</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Молоко</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Картофель</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+    </ul>
+
+    <form class="add text-center my-4" >
+      <label class="text-light">Добавить в список ...</label>
+      <input class="form-control m-auto" type="text" name="add" placeholder="здесь добавляем.." />
+    </form>
+
+  </div>
+</body>
+</html>
