@@ -8,7 +8,7 @@
 5. Визуализация пошагового меню:  http://import.hostingaba.beget.tech/progress-steps/
 6. Слайдер : http://import.hostingaba.beget.tech/slider/
 7. Викторина по философии - quiz : http://import.hostingaba.beget.tech/quiz/
-8. Список покупок (todolist) JavScript: http://import.hostingaba.beget.tech/todolist-js/
+8. Список покупок (todolist) JavaScript: http://import.hostingaba.beget.tech/todolist-js/
 9.
 10.
 11.
