@@ -9,7 +9,7 @@
 6. Слайдер : http://import.hostingaba.beget.tech/slider/
 7. Викторина по философии - quiz : http://import.hostingaba.beget.tech/quiz/
 8. Список покупок (todolist) JavaScript: http://import.hostingaba.beget.tech/todolist-js/
-9. Модуль:hidden-search-widget
+9. Модуль: hidden-search-widget
  Скрытый виджет поиска. "button - лупа" превращается в "input + button" :
   http://import.hostingaba.beget.tech/hidden-search-widget/
 10.
