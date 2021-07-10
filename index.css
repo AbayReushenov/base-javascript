@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2f3542
+    url(https://images.unsplash.com/photo-1589737172980-462b3af8899f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEzfHxsZWdvJTIwYnJpY2tzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60)
+    no-repeat left center/cover;
+  opacity: 0.6;  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+h1,
+h3 {
+  margin-bottom: 0;
+}
+
+li,
+p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.kanteyner {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.99);
+  text-align: left;
+}
+
+.header {
+  text-align: center;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #04aa6d;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
