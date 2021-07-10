@@ -12,5 +12,3 @@
 9. Модуль: hidden-search-widget
  Скрытый виджет поиска. "button - лупа" превращается в "input + button" :
   http://import.hostingaba.beget.tech/hidden-search-widget/
-10.
-11.
