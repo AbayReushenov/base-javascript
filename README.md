@@ -1,3 +1,5 @@
+
+### https://aba-base.netlify.app/
 # base-javascript
 ##  ПРОЕКТЫ, ШАБЛОНЫ. Ссылки на DEPLOY. Код здесь. Доступ свободный.
 1. Counter JavaScript - http://import.hostingaba.beget.tech/counter-js/
@@ -12,3 +14,5 @@
 9. Модуль: hidden-search-widget
  Скрытый виджет поиска. "button - лупа" превращается в "input + button" :
   http://import.hostingaba.beget.tech/hidden-search-widget/
+
+
