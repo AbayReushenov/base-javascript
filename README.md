@@ -15,4 +15,5 @@
 11. Генератор паролей,  Angular :"https://pw-abayreushenov.vercel.app/"
 12. Cards,  Angular: "https://cards-abayreushenov.vercel.app/"
 13. CSS Tutorial,  Typescript : https://css-tutor.netlify.app/
+14. Type it now!,  Angular: "https://typeitnow-abayreushenov.vercel.app/"
 
